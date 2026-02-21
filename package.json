@@ -4,7 +4,7 @@
   "description": "JavaScript Functions Lab - Story-based exercises to master function declarations, arrow functions, closures, HOF, recursion, composition, and more",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
     "test:win": "set NODE_OPTIONS=--experimental-vm-modules&& jest",
     "test:win:watch": "set NODE_OPTIONS=--experimental-vm-modules&& jest --watchAll"
